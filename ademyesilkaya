@@ -1,0 +1,42 @@
+# SORU_1
+
+with open("william.txt", "r", encoding='utf8') as f:
+    lines=f.readlines()
+    
+print (len(lines))
+
+f = open("davet_duzenli.txt", 'w', encoding='utf8')
+for i in range(len(lines)):
+    print(lines[i][0])
+    i+=1
+f.close()
+
+#SORU_2
+
+def asal_sayi_mi(x):
+    sonuc=0
+    for y in range (2,int(x)):
+        if(int(x)%y==0):
+            sonuc+=1
+        
+        if(sonuc!=0):
+            print("Asal sayı değildir.")
+            break
+    else:
+        print("Asal sayıdır.")
+ #SORU_4
+ 
+ rakamlar = [1, 2, 2, 4, 4, 5, 5, 6, 6]
+def unique(x):
+    for i in x:
+        for y in range(1,len(x)):
+            if i!=rakamlar[y]:
+                return i
+    
+   
+            
+
+list(map(unique,rakamlar))
+
+SORU_5
+
