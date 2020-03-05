@@ -1,4 +1,4 @@
-# SORU_1
+# SORU_1_222
 
 with open("william.txt", "r", encoding='utf8') as f:
     lines=f.readlines()
