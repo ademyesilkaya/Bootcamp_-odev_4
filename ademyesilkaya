@@ -11,7 +11,7 @@ for i in range(len(lines)):
     i+=1
 f.close()
 
-#SORU_2
+#SORU_2_yeni
 
 def asal_sayi_mi(x):
     sonuc=0
